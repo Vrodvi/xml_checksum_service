@@ -1,0 +1,33 @@
+site_name: XML Checksum Service
+site_description: Документация по сервису вычисления хешей XML-файлов
+site_author: Rust Developer
+repo_url: https://github.com/yourusername/xml_checksum_service
+repo_name: xml_checksum_service
+
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.highlight
+    - search.share
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
+
+nav:
+  - Главная: index.md
+  - Установка: installation.md
+  - Разработка: development.md
+  - Тестирование: testing.md
+
+plugins:
+  - search 

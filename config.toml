@@ -1,0 +1,7 @@
+[server]
+host = "127.0.0.1"
+port = 12345
+
+[files]
+xml_directory = "C:/xml_files"  # для Windows
+# xml_directory = "~/xml_files"  # для Linux/macOS 
